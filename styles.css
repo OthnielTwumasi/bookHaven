@@ -74,3 +74,77 @@ header> .main-nav-links{
     background-color: #52784f;
     color: white;
 }
+/*We on the container*/
+.container{
+    display: flex;
+}
+
+.textPart{
+    width: 50%;
+    padding: 5% 30px;
+}
+
+.textPart>.heading{
+font-family: "Ubuntu";
+font-size: 40px;
+color: #52784f;
+}
+
+.textPart>.subHeading {
+    margin-top: 12px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+.cta-buttons *{
+    padding: 15px;
+    border-radius: 15px;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.joinUs{
+    background-color: #52784f;
+    border: none;
+    transition: color 0.3s ease;
+}
+
+.joinUs:hover{
+    color: white;
+}
+
+.learnMore{
+    background-color: transparent;
+    border: solid 1.5px #52784f ;
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+}
+
+.learnMore:hover{
+    background-color: #52784f;
+    color: white;
+}
+
+.testimonial{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+}
+
+.testimonial h1{
+   font-family: "Ubuntu";
+   font-size: 25px;
+   color: #52784f;
+}
+
+.testimonial p{
+    font-family: "Open Sans";
+    font-size: 12px;
+}
